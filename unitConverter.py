@@ -24,3 +24,5 @@ elif num == 1:
     kilometers = int(input('Enter a number of Kilometers'))
     miles = kilometers/1.60934
     print(kilometers,'kilometers is', miles,'miles')
+else:
+    print('Error, number not an option')
