@@ -2,10 +2,12 @@
 #1/29/18
 #unitConverter.py
 
-op1 = 'kilometers to Miles'
-op2 = 'Kilograms to Pounds'
-op3 = 'Liters to Gallons'
-op4 = 'Celsius to Fahrenheit'
-
-print('Chose a number 1:' op1, '2:' op2'3:', op3 '4', op4)
-
+print('1: kilometers to Miles')
+print('2: Kilograms to Pounds')
+print('3: Liters to Gallons')
+print('4: Celsius to Fahrenheit')
+num = input('Choose a number: ')
+if num == 4:
+    celcius = int(input('Enter Degrees in Celcius: '))
+    fahrenheit = celcius * 1.8 + 32
+    print(celcius,'degrees Celsius is', fahrenheit,'degres in Fahrenheit')
