@@ -20,3 +20,7 @@ elif num == 2:
     kilograms = int(input('Enter a number of Kilograms: '))
     pounds = kilograms/0.453592
     print(kilograms,'Kilograms is', pounds,'pounds')
+elif num == 1:
+    kilometers = int(input('Enter a number of Kilometers'))
+    miles = kilometers/1.60934
+    print(kilometers,'kilometers is', miles,'miles')
