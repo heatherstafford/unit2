@@ -14,3 +14,4 @@ if num == 1:
     
     Sprite(rectangle)
     myApp = App()
+    myApp.run()
